@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/pywayland/json
+md5  4746d4360d81597c01ca57bf9903bda8  pywayland-0.3.0.tar.gz
+sha256  b1edef7ba733998ca3cfa849ab52ece6d33a9a0963b2fd71fe0937ab6bcd528d  pywayland-0.3.0.tar.gz
+# Locally computed sha256 checksums
+sha256  cc4d4de0920b0d3912203b5d9aa76728ac4a11087f55da9ea00576db7d1e34e2  LICENSE

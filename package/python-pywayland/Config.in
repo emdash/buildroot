@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PYWAYLAND
+	bool "python-pywayland"
+	select BR2_PACKAGE_PYTHON_CFFI # runtime
+	help
+	  Python bindings for the libwayland library written in pure
+	  python.
