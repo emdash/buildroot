@@ -60,8 +60,12 @@ def setup_decorator(func, method):
     def closure(*args, **kwargs):
         # Any python packages calls its setup function to be installed.
         # Argument 'name' of this setup function is the package's name
-        BuildrootPackage.setup_args[kwargs['name']] = kwargs
-        BuildrootPackage.setup_args[kwargs['name']]['method'] = method
+        if not 'name' in kwargs:
+            name = input("Please provide the package name: ")
+        else:
+            name = kwargs['name']
+        BuildrootPackage.setup_args[name] = kwargs
+        BuildrootPackage.setup_args[name]['method'] = method
     return closure
 
 # monkey patch
