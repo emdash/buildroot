@@ -10,6 +10,6 @@ PYTHON_PYWAYLAND_SITE = https://files.pythonhosted.org/packages/7f/79/4683936d43
 PYTHON_PYWAYLAND_SETUP_TYPE = setuptools
 PYTHON_PYWAYLAND_LICENSE = Apache-2.0
 PYTHON_PYWAYLAND_LICENSE_FILES = LICENSE
-PYTHON_PYWAYLAND_DEPENDENCIES = host-python-cffi
+PYTHON_PYWAYLAND_DEPENDENCIES = host-python-cffi wayland
 
 $(eval $(python-package))
